@@ -18,6 +18,7 @@ cv.putText(result, "original image", (10, 30), cv.FONT_ITALIC, 1.0, (0, 0, 255),
 cv.putText(result, "sharpen image", (w+10, 30), cv.FONT_ITALIC, 1.0, (0, 0, 255), 2)
 cv.imshow("sharpen_image", result)
 cv.imwrite("./result.png", result)
+
  
 cv.waitKey(0)
 cv.destroyAllWindows()
