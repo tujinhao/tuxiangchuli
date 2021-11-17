@@ -93,16 +93,16 @@ def walk():
     
     # 暴力一点，把它们都显示出来看看
     
-    cv2.imshow('original_img', original_img)
-    cv2.imshow('blurred', blurred)
-    cv2.imshow('gradX', gradX)
-    cv2.imshow('gradY', gradY)
-    cv2.imshow('final', gradient)
-    cv2.imshow('thresh', thresh)
-    cv2.imshow('closed', closed)
-    cv2.imshow('draw_img', draw_img)
-    cv2.imshow('crop_img', crop_img)
-    cv2.waitKey(0)
-    cv2.imwrite(save_path, crop_img)
+    # cv2.imshow('original_img', original_img)
+    # cv2.imshow('blurred', blurred)
+    # cv2.imshow('gradX', gradX)
+    # cv2.imshow('gradY', gradY)
+    # cv2.imshow('final', gradient)
+    # cv2.imshow('thresh', thresh)
+    # cv2.imshow('closed', closed)
+    # cv2.imshow('draw_img', draw_img)
+    # cv2.imshow('crop_img', crop_img)
+    # cv2.waitKey(0)
+    # cv2.imwrite(save_path, crop_img)
 
 walk()
